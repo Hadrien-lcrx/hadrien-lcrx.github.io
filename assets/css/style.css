@@ -3,6 +3,7 @@ html, body {
 	padding: 0;
   color: #fff;
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -19,7 +20,7 @@ body {
 
 .header h1 {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: #a8afb8;
@@ -57,40 +58,6 @@ a:link, a:visited {
   color: #a8afb8;
 }
 
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #a8afb8;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  /* z-index: 1;
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: 100%; /* To the left of the tooltip
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent; */
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
 /* Supporting */
 .supporting {
   text-align: left;
@@ -110,11 +77,11 @@ a:link, a:visited {
 
 .supporting a {
   color: #a8afb8;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .supporting a:hover {
-  font-weight: 700;
+  font-weight: 300;
   background: #fff;
   font-style: normal;
 }
@@ -248,7 +215,7 @@ figure.effect-apollo h2 {
   margin: 0.5em;
   padding: 0.2em 1em;
   max-width: 300px;
-  font-weight: 800;
+  font-weight: 300;
   color: #333;
   background: #fff;
   text-align: right;
@@ -259,13 +226,18 @@ figure.effect-apollo h2 {
 
 figure.effect-apollo:hover img {
   opacity: 0.6;
-  /*border: 1px solid rgba(119,21,5,1);*/
   -webkit-transform: scale3d(1,1,1);
   transform: scale3d(1,1,1);
 }
 
-figure.effect-apollo:hover img {
-  
+.subtitle {
+  font-weight: 900;
+  font-size: 0.75em;
+}
+
+.bracket {
+  font-weight: 900;
+  font-size: 1.25em;
 }
 
 figure.effect-apollo:hover figcaption::before {
@@ -286,7 +258,6 @@ figure.effect-apollo:hover h2, figure.effect-apollo:hover p {
 .small-margin-top {
   margin-top: 10px;
 }
-
 
 /* Portfolio */
 .portfolio {
@@ -310,41 +281,10 @@ figure.effect-apollo:hover h2, figure.effect-apollo:hover p {
 
 .footer a {
   color: #a8afb8;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .footer a:hover {
   color: #fff;
 }
 
-/*@media (max-width: 500px) {
-  .row {
-    margin-top: 0;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-
-  .grid figure {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 50%;
-  }
-}
-*/
-/*@media (max-width: 900px) {
-  .row {
-    margin-top: 0;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-
-  .grid figure {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 33%;
-  }
-}*/
