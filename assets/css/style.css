@@ -14,7 +14,7 @@ body {
 
 /* Header */
 .header {
-  margin-left: -15px;
+  /* margin-left: -15px; */
   text-transform: uppercase;
 }
 
@@ -22,13 +22,13 @@ body {
   font-size: 30px;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
-  text-align: center;
+  text-align: left;
   color: #a8afb8;
 }
 
 .header span {
   background-color:rgba(255,255,255,0.2);
-  padding: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 10px;
 }
 
 a:link, a:visited {
@@ -56,6 +56,21 @@ a:link, a:visited {
 .header li a:focus {
   background: #fff;
   color: #a8afb8;
+}
+
+.instructions {
+  margin: 20px 0px 0 50px;
+  font-size: 22px;
+}
+
+.instructions span {
+  font-weight: 500;
+  background-color: #0F254D;
+  color: black;
+}
+
+.instructions a:hover {
+  color: yellow;
 }
 
 /* Supporting */
