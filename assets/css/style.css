@@ -23,17 +23,23 @@ body {
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   text-align: left;
-  color: #a8afb8;
+  color: #FFFF;
 }
 
 .header span {
   background-color:rgba(255,255,255,0.2);
-  padding: 0px 5px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  margin-left: 10px;
 }
 
 a:link, a:visited {
   color: white;
   text-decoration: none;
+}
+
+.header span:hover {
+  color: yellow;
+  background-color: #0F254D;
 }
 
 .header .nav {
@@ -66,7 +72,7 @@ a:link, a:visited {
 .instructions span {
   font-weight: 500;
   background-color: #0F254D;
-  color: black;
+  color: #FFFFFF;
 }
 
 .instructions a:hover {
